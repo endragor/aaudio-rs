@@ -1,0 +1,13 @@
+[package]
+name = "aaudio"
+version = "0.1.1"
+authors = ["Ruslan Mustakov <r.mustakov@gmail.com>"]
+description = "Rust bindings for the AAudio API."
+repository = "https://github.com/endragor/aaudio-rs/"
+documentation = "https://docs.rs/aaudio"
+license = "MIT"
+keywords = ["audio", "sound", "aaudio", "android"]
+
+[dependencies]
+libc = "0.2"
+aaudio-sys = { version = "0.1", path = "../aaudio-sys" }

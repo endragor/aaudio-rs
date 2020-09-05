@@ -1,0 +1,13 @@
+[package]
+name = "aaudio-sys"
+version = "0.1.0"
+authors = ["Ruslan Mustakov <r.mustakov@gmail.com>"]
+description = "Low-level interface for the AAudio API."
+repository = "https://github.com/endragor/aaudio-rs/"
+documentation = "https://docs.rs/aaudio-sys"
+license = "MIT"
+keywords = ["audio", "sound", "aaudio", "android", "ffi"]
+link = "aaudio"
+
+[dependencies]
+libc = "0.2"
